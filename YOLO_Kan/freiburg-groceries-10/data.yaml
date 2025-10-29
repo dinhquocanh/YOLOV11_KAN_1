@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['beans', 'cake', 'candy', 'cereal', 'chips', 'chocolate', 'coffee', 'corn', 'fish', 'flour', 'honey', 'jam', 'juice', 'milk', 'nuts', 'oil', 'pasta', 'rice', 'soda', 'spices', 'sugar', 'tea', 'tomato_sauce', 'vinegar', 'water']
+
+roboflow:
+  workspace: michael-ringer
+  project: freiburg-groceries
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/michael-ringer/freiburg-groceries/dataset/10
